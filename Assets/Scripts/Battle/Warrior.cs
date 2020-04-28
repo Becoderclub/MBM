@@ -5,12 +5,27 @@ using UnityEngine;
 public class Warrior : MonoBehaviour
 {
     //hp attackMight magicResistance is for every single unit of amount
-    protected int amount;
-    protected int hp;
-    protected bool isEnemy;
-    protected int magicResistance;
-    protected int turnsAmount;
-    protected bool isAbleToShoot;
-    protected int attackMight;
-    protected int armor;
+    [SerializeField]protected int amount = 1;
+    public int Amount
+    {
+        get => amount;
+        set => amount = value;
+    }
+    protected int hp = 100;
+    protected bool isEnemy = false;
+    protected int magicResistance = 0;
+    protected int turnsAmount = 1;
+    protected bool isAbleToShoot = false;
+    protected int attackMight = 70;
+    protected int armor = 5;
+    protected int worth = 5;
+    public int Worth
+    {
+        get => worth;
+    }
+    protected string className = "Default";
+    public string ClassName
+    {
+        get => className;
+    }
 }
