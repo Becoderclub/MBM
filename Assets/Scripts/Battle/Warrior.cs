@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Warrior : MonoBehaviour
+public class Warrior : ScriptableObject
 {
     //hp attackMight magicResistance is for every single unit of amount
     [SerializeField]protected int amount = 1;

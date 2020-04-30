@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyBattleController : MonoBehaviour
 {
     [SerializeField] private EnemyArmyCreator armyCreator;
-    public List<GameObject> army;
+    public List<Warrior> army;
     private int difficulty;
     void Start()
     {
