@@ -248,12 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf1e87c66867b154cb147446f6c02a6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  warriors:
-  - {fileID: 881858687525599159, guid: 44d7f57c2e79ab94aa1d971115506847, type: 3}
-  - {fileID: 7278848638898954292, guid: a0617741cd7e1244ea2fe85c542cba57, type: 3}
-  - {fileID: 434633414397752493, guid: b601116557df17845b7d59f75d9b63ec, type: 3}
-  - {fileID: 2815760889162178917, guid: c5f2dd7db5b97a74b9739b9cc0f2d56e, type: 3}
-  - {fileID: 3903058508242852233, guid: f1e5b2988a0773c4ab1cf5e99eb8baf6, type: 3}
+  warriors: []
 --- !u!4 &1826751164
 Transform:
   m_ObjectHideFlags: 0
