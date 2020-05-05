@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class Inventory : MonoBehaviour
         {
             Destroy(pos.gameObject);
         }
-        foreach (ItemImplementation item in Items)
+        foreach (ItemImplementation item in items)
         {
             var cell = Instantiate(_gridInventoryTemplate, _container);
             cell.RenderList(item);

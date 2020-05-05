@@ -12,8 +12,6 @@ public class PlayerController : MonoBehaviour
     private float _cellSize;
     private static float _idleStateX;
     private static float _idleStateY;
-
-    
     void Start() 
     {
        _speed = 5f;
@@ -21,6 +19,7 @@ public class PlayerController : MonoBehaviour
        _destination = transform.position;
        _isMoving = false;
        _cellSize = 1f;
+
     }
     void Update()
     {
