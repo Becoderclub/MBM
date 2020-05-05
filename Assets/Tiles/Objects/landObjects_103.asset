@@ -12,11 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: landObjects_103
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   m_Sprite: {fileID: 8703101566502670885, guid: 380c947134bfe4a49879a845ff66ecef,
-=======
-  m_Sprite: {fileID: 7383978377137884105, guid: 380c947134bfe4a49879a845ff66ecef,
->>>>>>> e167fc0684387b5a5963d780b9623469ff31cc27
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
