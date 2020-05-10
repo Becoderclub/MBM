@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 46879f3f5a16cec43a20d93bdaa6ecd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2323810373656511008
+    second: fantasyhextiles_v3_0
+  - first:
+      213: 5667840648637180397
+    second: fantasyhextiles_v3_1
+  - first:
+      213: -6154527537789328042
+    second: fantasyhextiles_v3_2
+  - first:
+      213: -4512851853396015951
+    second: fantasyhextiles_v3_3
+  - first:
+      213: 1350654428746220928
+    second: fantasyhextiles_v3_4
+  - first:
+      213: -5275657792330925411
+    second: fantasyhextiles_v3_5
+  - first:
+      213: -3882381983857373155
+    second: fantasyhextiles_v3_6
+  - first:
+      213: 192585891294205710
+    second: fantasyhextiles_v3_7
+  - first:
+      213: 2450796846250647559
+    second: fantasyhextiles_v3_8
+  - first:
+      213: 6233921878529581075
+    second: fantasyhextiles_v3_9
+  - first:
+      213: 1109728235934656095
+    second: fantasyhextiles_v3_10
+  - first:
+      213: 7411299063556176421
+    second: fantasyhextiles_v3_11
+  - first:
+      213: -3021042921948808444
+    second: fantasyhextiles_v3_12
+  - first:
+      213: -8665564346410316962
+    second: fantasyhextiles_v3_13
+  - first:
+      213: -892670004239661681
+    second: fantasyhextiles_v3_14
+  - first:
+      213: 4727263266655033677
+    second: fantasyhextiles_v3_15
+  - first:
+      213: -1412454836485576722
+    second: fantasyhextiles_v3_16
+  - first:
+      213: -8318047989575985451
+    second: fantasyhextiles_v3_17
+  - first:
+      213: 7298178910247252594
+    second: fantasyhextiles_v3_18
+  - first:
+      213: -3472981989325724952
+    second: fantasyhextiles_v3_19
+  - first:
+      213: -8275583933896327715
+    second: fantasyhextiles_v3_20
+  - first:
+      213: 2529989241948367816
+    second: fantasyhextiles_v3_21
+  - first:
+      213: -6157358959018111359
+    second: fantasyhextiles_v3_22
+  - first:
+      213: -2642441492577688136
+    second: fantasyhextiles_v3_23
+  - first:
+      213: 9071330096685583303
+    second: fantasyhextiles_v3_24
+  - first:
+      213: 2330957037806367216
+    second: fantasyhextiles_v3_25
+  - first:
+      213: -5920736061661972224
+    second: fantasyhextiles_v3_26
+  - first:
+      213: -3109900946470079800
+    second: fantasyhextiles_v3_27
+  - first:
+      213: -4322079813296173439
+    second: fantasyhextiles_v3_28
+  - first:
+      213: 1357289811766173564
+    second: fantasyhextiles_v3_29
+  - first:
+      213: -491879578407868640
+    second: fantasyhextiles_v3_30
+  - first:
+      213: 3958384453955695738
+    second: fantasyhextiles_v3_31
+  - first:
+      213: -2105649096849385246
+    second: fantasyhextiles_v3_32
+  - first:
+      213: -5570728307603329363
+    second: fantasyhextiles_v3_33
+  - first:
+      213: -1129808954337107655
+    second: fantasyhextiles_v3_34
+  - first:
+      213: 5541035508590840154
+    second: fantasyhextiles_v3_35
+  - first:
+      213: 1283354751146326117
+    second: fantasyhextiles_v3_36
+  - first:
+      213: -8483941131960238994
+    second: fantasyhextiles_v3_37
+  - first:
+      213: 3813582167500930795
+    second: fantasyhextiles_v3_38
+  - first:
+      213: 7191433588456369238
+    second: fantasyhextiles_v3_39
+  - first:
+      213: -6848656756194493189
+    second: fantasyhextiles_v3_40
+  - first:
+      213: -1383374779242704683
+    second: fantasyhextiles_v3_41
+  - first:
+      213: -7616371711635432387
+    second: fantasyhextiles_v3_42
+  - first:
+      213: 1437179711421484648
+    second: fantasyhextiles_v3_43
+  - first:
+      213: 2440252907580036409
+    second: fantasyhextiles_v3_44
+  - first:
+      213: -2545213656094413368
+    second: fantasyhextiles_v3_45
+  - first:
+      213: 5510650943439795893
+    second: fantasyhextiles_v3_46
+  - first:
+      213: 3975322873710520458
+    second: fantasyhextiles_v3_47
+  - first:
+      213: -7941401604620001766
+    second: fantasyhextiles_v3_48
+  - first:
+      213: 3037802410078884280
+    second: fantasyhextiles_v3_49
+  - first:
+      213: -7707877655333462333
+    second: fantasyhextiles_v3_50
+  - first:
+      213: -5600832041063882186
+    second: fantasyhextiles_v3_51
+  - first:
+      213: 1945980030198209675
+    second: fantasyhextiles_v3_52
+  - first:
+      213: 1225404146199331835
+    second: fantasyhextiles_v3_53
+  - first:
+      213: -1194064526047674915
+    second: fantasyhextiles_v3_54
+  - first:
+      213: -1450272848435306198
+    second: fantasyhextiles_v3_55
+  - first:
+      213: -8484627169169001193
+    second: fantasyhextiles_v3_56
+  - first:
+      213: -243416093449617172
+    second: fantasyhextiles_v3_57
+  - first:
+      213: 4602703832822787996
+    second: fantasyhextiles_v3_58
+  - first:
+      213: 8079353075479157407
+    second: fantasyhextiles_v3_59
+  - first:
+      213: 7001979444142906404
+    second: fantasyhextiles_v3_60
+  - first:
+      213: -8576884050332895844
+    second: fantasyhextiles_v3_61
+  - first:
+      213: 7190527273563572565
+    second: fantasyhextiles_v3_62
+  - first:
+      213: 6330517188566612652
+    second: fantasyhextiles_v3_63
+  - first:
+      213: 4060517085723881979
+    second: fantasyhextiles_v3_64
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 43
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fantasyhextiles_v3_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 240
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0220a270935df3020800000000000000
+      internalID: 2323810373656511008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasyhextiles_v3_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 238
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9e9895a0738ae40800000000000000
+      internalID: 5667840648637180397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasyhextiles_v3_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65525bdffc9b69aa0800000000000000
+      internalID: -6154527537789328042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
