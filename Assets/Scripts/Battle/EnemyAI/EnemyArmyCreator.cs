@@ -4,38 +4,38 @@ using UnityEngine;
 
 public class EnemyArmyCreator : MonoBehaviour
 {
-    [SerializeField]private List<GameObject> warriors;
-    public List<GameObject> CreateArmy(int goalDifficulty, Transform parent)
+    [SerializeField]private List<Warrior> warriors;
+    public List<Warrior> CreateArmy(int goalDifficulty, Transform parent)
     {
-        List<GameObject> army = new List<GameObject>();
+        List<Warrior> army = new List<Warrior>();
         int currentDifficulty = 0;
+
         while (currentDifficulty < goalDifficulty)
         {
             bool isSameClassObjectExsists = false;
-            GameObject unitToAdd = warriors[Random.Range(0, warriors.Count)];
-            string unitToAddName = unitToAdd.GetComponent<Warrior>().ClassName;
+            Warrior unitToAdd = warriors[Random.Range(0, warriors.Count)];
+            string unitToAddName = unitToAdd.ClassName;
             Warrior warriorToIncreaseAmount = null;
-            foreach (GameObject warriorGameObj in army)
+
+            foreach (Warrior warriorGameObj in army)
             {
-                if(warriorGameObj.GetComponent<Warrior>().ClassName == unitToAddName)
+                if(warriorGameObj.ClassName == unitToAddName)
                 {
                     isSameClassObjectExsists = true;
-                    warriorToIncreaseAmount = warriorGameObj.GetComponent<Warrior>();
+                    warriorToIncreaseAmount = warriorGameObj;
                     break;
                 }
             }
+
             if (isSameClassObjectExsists)
             {
-                Debug.Log(warriorToIncreaseAmount.Amount);
                 warriorToIncreaseAmount.Amount = warriorToIncreaseAmount.Amount + 1;
-                Debug.Log(warriorToIncreaseAmount.Amount);
             }
             else 
             { 
-                GameObject unitInArmy = Instantiate(unitToAdd, parent);
-                army.Add(unitInArmy);
+                army.Add(unitToAdd);
             }
-            currentDifficulty += unitToAdd.GetComponent<Warrior>().Worth;
+            currentDifficulty += unitToAdd.Worth;
         }
         return army;
     }
