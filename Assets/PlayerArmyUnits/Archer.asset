@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7487c661bbc7b54a8c97feec78c9d7d, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: 
+  amount: 1
+  hp: 80
+  isEnemy: 0
+  magicResistance: 5
+  turnsAmount: 2
+  isAbleToShoot: 1
+  attackMight: 60
+  armor: 3
+  worth: 2
+  className: Archer

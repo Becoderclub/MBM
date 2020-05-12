@@ -317,8 +317,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -82.4, y: 0}
+  m_AnchoredPosition: {x: 0, y: -7.2}
+  m_SizeDelta: {x: -82.4, y: 18.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1220573692
 MonoBehaviour:
@@ -375,6 +375,7 @@ MonoBehaviour:
   _gridInventoryTemplate: {fileID: 1899956851909977967, guid: ddecac270874b6d4c923ff0952627e68,
     type: 3}
   _container: {fileID: 1220573691}
+  _draggingParent: {fileID: 1245791082}
 --- !u!114 &1220573695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,7 +468,7 @@ Canvas:
   m_GameObject: {fileID: 1245791078}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 1362071474}
   m_PlaneDistance: 100
   m_PixelPerfect: 0

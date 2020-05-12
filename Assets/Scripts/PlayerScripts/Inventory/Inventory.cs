@@ -8,7 +8,7 @@ public class Inventory : MonoBehaviour
     [SerializeField] private List<ItemImplementation> Items;
     [SerializeField] private GridInventory _gridInventoryTemplate;
     [SerializeField] private Transform _container;
-
+    [SerializeField] private Transform _draggingParent;
     private void OnEnable() 
     {
         RenderList(Items);
@@ -22,6 +22,7 @@ public class Inventory : MonoBehaviour
         foreach (ItemImplementation item in items)
         {
             var cell = Instantiate(_gridInventoryTemplate, _container);
+            cell.Init(_draggingParent);
             cell.RenderList(item);
         }
     }
