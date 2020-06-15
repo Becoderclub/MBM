@@ -16,6 +16,26 @@ public static class PlayerArmy
                 army[i] = empty;
             }
         }
-        army[0] = ScriptableObject.CreateInstance<Elf>();
+    }
+
+    public static void Swap(int a, int b) {
+        Warrior tmp = army[a];
+        army[a] = army[b];
+        army[b] = tmp;
+    }
+
+    public static void Combine(int a, int b) {
+        if (army[a].GetType() == army[b].GetType()) {
+            army[a].Amount += army[b].Amount;
+            army[b] = empty;
+        }
+    }
+
+    public static void Separate(int src, int dest, int quan) {
+        if (army[src].Amount > quan && army[dest] == empty) {
+            army[dest] = army[src];
+            army[dest].Amount = quan;
+            army[src].Amount -= quan;
+        }
     }
 }
