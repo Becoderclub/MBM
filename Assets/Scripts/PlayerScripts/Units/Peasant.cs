@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IItem
+[CreateAssetMenu(menuName = "Warriors/Peasant")]
+public class Peasant : Warrior
 {
-    string Name { get; }
-    Sprite Icon { get; }
 }
-
