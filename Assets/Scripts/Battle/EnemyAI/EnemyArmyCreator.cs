@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyArmyCreator : MonoBehaviour
 {
     [SerializeField]private List<Warrior> warriors;
-    public List<Warrior> CreateArmy(int goalDifficulty, Transform parent)
+    public List<Warrior> CreateArmy(int goalDifficulty)
     {
         List<Warrior> army = new List<Warrior>();
         int currentDifficulty = 0;
