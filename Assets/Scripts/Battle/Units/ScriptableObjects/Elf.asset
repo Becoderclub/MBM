@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59dcd0d50e04ff04b80e45a6fb618232, type: 3}
   m_Name: Elf
   m_EditorClassIdentifier: 
-  amount: 1
   hp: 70
-  isEnemy: 1
-  magicResistance: 5
+  magicResistance: 30
   turnsAmount: 2
   isAbleToShoot: 1
-  attackMight: 100
-  armor: 5
-  worth: 3
+  attackMight: 30
+  armor: 0
+  worth: 1
+  amount: 1
   className: Elf

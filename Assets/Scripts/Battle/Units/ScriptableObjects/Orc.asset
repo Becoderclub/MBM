@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5344c2114c002cb44971b0f902b558b5, type: 3}
   m_Name: Orc
   m_EditorClassIdentifier: 
-  amount: 1
-  hp: 100
-  isEnemy: 1
-  magicResistance: 5
+  hp: 150
+  magicResistance: 15
   turnsAmount: 2
   isAbleToShoot: 0
-  attackMight: 50
-  armor: 5
-  worth: 2
+  attackMight: 60
+  armor: 10
+  worth: 4
+  amount: 1
   className: Orc

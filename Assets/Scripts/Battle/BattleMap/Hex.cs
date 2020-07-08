@@ -1,28 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
+[Serializable]
 public class Hex
 {
     #region Fields
-    private bool _isWalkable;
-    private GameObject _gameObject;
-    private List<Hex> _neighbours;
+    [SerializeField] private bool _isWalkable;
+    [SerializeField] private GameObject _gameObject;
+    public List<Hex> neighbours;
     #endregion
 
     #region Properties
     public bool isWalkable => _isWalkable;
     public GameObject gameObject => _gameObject;
-    public List<Hex> neighbours => _neighbours;
     #endregion
 
     #region Constructors
-    public Hex(bool walkable, GameObject obj, List<Hex> neighbourHexes)
+    public Hex(bool walkable, GameObject obj)
     {
-        _neighbours = new List<Hex>();
+        neighbours = new List<Hex>();
         _isWalkable = walkable;
         _gameObject = obj;
-        _neighbours.AddRange(neighbourHexes);
     }
     #endregion
 }

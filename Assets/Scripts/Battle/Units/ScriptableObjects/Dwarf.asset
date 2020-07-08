@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a63d7673c65154c8eaa2f11df26bf0, type: 3}
   m_Name: Dwarf
   m_EditorClassIdentifier: 
-  amount: 1
   hp: 100
-  isEnemy: 1
-  magicResistance: 15
+  magicResistance: 20
   turnsAmount: 2
   isAbleToShoot: 0
-  attackMight: 60
+  attackMight: 70
   armor: 5
   worth: 3
+  amount: 1
   className: Dwarf
