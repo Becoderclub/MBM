@@ -9,16 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5344c2114c002cb44971b0f902b558b5, type: 3}
-  m_Name: Orc
+  m_Script: {fileID: 11500000, guid: 647630455718480489b25c2a540562db, type: 3}
+  m_Name: Giant
   m_EditorClassIdentifier: 
-  amount: 1
-  hp: 100
-  isEnemy: 1
+  hp: 300
   magicResistance: 5
   turnsAmount: 2
-  isAbleToShoot: 0
+  isAbleToShoot: 1
   attackMight: 50
-  armor: 5
-  worth: 2
-  className: Orc
+  armor: 20
+  worth: 5
+  amount: 1
+  className: Giant

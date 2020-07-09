@@ -14,13 +14,13 @@ public class Unit : MonoBehaviour
     //int healthOfUnit;
 
     void Load(Warrior w, int amount, bool isEnemy) {
-        maxhp = w.hp;
-        attack = w.attackMight;
-        defense = w.armor;
-        magicdef = w.magicResistance;
-        turns = w.turnsAmount;
-        canShoot = w.isAbleToShoot;
-        unitName = w.className;
+        maxhp = w.Hp;
+        attack = w.AttackMight;
+        defense = w.Armor;
+        magicdef = w.MagicResistance;
+        turns = w.TurnsAmount;
+        canShoot = w.IsAbleToShoot;
+        unitName = w.ClassName;
 
         this.amount = amount;
         this.isEnemy = isEnemy;
