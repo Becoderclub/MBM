@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
-    int maxhp, attack, defense, magicdef, turns;
-    bool canShoot;
-    string unitName;
+    // temporary, scriptable object to load should be
+    // recieved from battle initializer, as well as
+    // amount and isEnemy
+    [SerializeField] private int maxhp, attack, defense, magicdef, turns;
+    [SerializeField] private bool canShoot;
+    [SerializeField] private string unitName;
 
-    int amount = 1;
-    int health;
-    bool isEnemy;
+    [SerializeField] private int amount = 1;
+    [SerializeField] private int health;
+    [SerializeField] private bool isEnemy;
     //int healthOfUnit;
 
-    void Load(Warrior w, int amount, bool isEnemy) {
+    public void Load(Warrior w, bool isEnemy) {
         maxhp = w.Hp;
         attack = w.AttackMight;
         defense = w.Armor;
@@ -22,7 +25,7 @@ public class Unit : MonoBehaviour
         canShoot = w.IsAbleToShoot;
         unitName = w.ClassName;
 
-        this.amount = amount;
+        this.amount = w.Amount;
         this.isEnemy = isEnemy;
         health = maxhp * amount;
         //healthOfUnit = maxhp;
