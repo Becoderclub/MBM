@@ -18,6 +18,31 @@ public static class PlayerArmy
         }
     }
 
+    public static void Add(Warrior warrior) {
+        bool found = false;
+        for (int i = 0; i < army.Length; i++) {
+            if (army[i].ClassName == warrior.ClassName) {
+                army[i].Amount += warrior.Amount;
+                found = true;
+            }
+        }
+        if (!found) {
+            for (int i = 0; i < army.Length; i++) {
+                if (army[i].ClassName == "" || army[i] == null) {
+                    army[i].Armor = warrior.Armor;
+                    army[i].AttackMight = warrior.AttackMight;
+                    army[i].Hp = warrior.Hp;
+                    army[i].IsAbleToShoot = warrior.IsAbleToShoot;
+                    army[i].MagicResistance = warrior.MagicResistance;
+                    army[i].TurnsAmount = warrior.TurnsAmount;
+                    army[i].Worth = warrior.Worth;
+                    army[i].Amount = 1;
+                    army[i].ClassName = warrior.ClassName;
+                }
+            }
+        }
+    }
+
     public static void Swap(int a, int b) {
         Warrior tmp = army[a];
         army[a] = army[b];
