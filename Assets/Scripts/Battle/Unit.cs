@@ -1,45 +1,37 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Unit : MonoBehaviour
+public class Unit
 {
-    // temporary, scriptable object to load should be
-    // recieved from battle initializer, as well as
-    // amount and isEnemy
-    [SerializeField] private int maxhp, attack, defense, magicdef, turns;
-    [SerializeField] private bool canShoot;
-    [SerializeField] private string unitName;
+    private int baseHealth, baseAttack, defense, magicdef, turns;
+    private bool canShoot;
+    private string unitName;
 
-    [SerializeField] private int amount = 1;
-    [SerializeField] private int health;
-    [SerializeField] private bool isEnemy;
-    //int healthOfUnit;
+    private int amount = 1;
+    private int totalHealth;
+    private int totalAttack;
+    private bool isEnemy;
 
-    public void Load(Warrior w, bool isEnemy) {
-        maxhp = w.Hp;
-        attack = w.AttackMight;
-        defense = w.Armor;
-        magicdef = w.MagicResistance;
-        turns = w.TurnsAmount;
-        canShoot = w.IsAbleToShoot;
-        unitName = w.ClassName;
+    public int healthOfUnit;
+    public Image sprite;
+    public GameObject gameObject;
 
-        this.amount = w.Amount;
+    public Unit(Warrior warrior, bool isEnemy) {
+        baseHealth = warrior.Hp;
+        baseAttack = warrior.AttackMight;
+        defense = warrior.Armor;
+        magicdef = warrior.MagicResistance;
+        turns = warrior.TurnsAmount;
+        canShoot = warrior.IsAbleToShoot;
+        unitName = warrior.ClassName;
+        //this.sprite == warrior.sprite
+
+        this.amount = warrior.Amount;
         this.isEnemy = isEnemy;
-        health = maxhp * amount;
-        //healthOfUnit = maxhp;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        totalHealth = baseHealth * amount;
+        totalAttack = baseAttack * amount;
+        healthOfUnit = baseHealth;
     }
 }

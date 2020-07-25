@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9e6cc446a09724d89609d78267266a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unit: {fileID: 7643567009469890289, guid: 6c271d9a3a706db4cbd6c8a15a333b60, type: 3}
   armyCreator: {fileID: 290596616}
   army: []
 --- !u!114 &290596616
@@ -247,11 +248,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1015364938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 624a976e237bf83409842c56dc247811, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e7561a068a1de145acaf0c3d1e20408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   unit: {fileID: 7643567009469890289, guid: 6c271d9a3a706db4cbd6c8a15a333b60, type: 3}
-  ebcontroller: {fileID: 290596615}
 --- !u!114 &1015364942
 MonoBehaviour:
   m_ObjectHideFlags: 0
