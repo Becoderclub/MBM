@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   magicResistance: 20
-  turnsAmount: 2
+  turnsAmount: 4
   isAbleToShoot: 0
   attackMight: 70
   armor: 5

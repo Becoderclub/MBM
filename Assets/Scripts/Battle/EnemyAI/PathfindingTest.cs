@@ -8,7 +8,7 @@ public class PathfindingTest : MonoBehaviour
     List<Hex> path;
     void Start()
     {
-        path = Pathfinding.FindPath(battleSceneCreator.BattleMap[4, 5], battleSceneCreator.BattleMap[0, 1]);
+        path = Pathfinding.FindPath(battleSceneCreator.BattleMap[0, 0], battleSceneCreator.BattleMap[1, 2]);
         Debug.Log(path.Count);
     }
 

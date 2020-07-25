@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3d178f0c61f0645963881eaafc20c4, type: 3}
   m_Name: Knight
   m_EditorClassIdentifier: 
-  amount: 1
   hp: 200
-  isEnemy: 0
   magicResistance: 10
-  turnsAmount: 2
+  turnsAmount: 4
   isAbleToShoot: 0
   attackMight: 80
   armor: 15
   worth: 4
+  amount: 1
   className: Knight

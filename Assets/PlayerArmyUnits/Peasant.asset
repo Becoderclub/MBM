@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dab689607d5dbc04294e603e36d05447, type: 3}
   m_Name: Peasant
   m_EditorClassIdentifier: 
-  amount: 1
   hp: 50
-  isEnemy: 0
   magicResistance: 0
-  turnsAmount: 2
+  turnsAmount: 4
   isAbleToShoot: 0
   attackMight: 30
   armor: 0
   worth: 1
+  amount: 1
   className: Peasant
