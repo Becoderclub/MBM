@@ -16,8 +16,9 @@ public class Unit
 
     public int healthOfUnit;
     public Image sprite;
+    public GameObject gameObject;
 
-    public void Load(Warrior warrior, bool isEnemy) {
+    public Unit(Warrior warrior, bool isEnemy) {
         baseHealth = warrior.Hp;
         baseAttack = warrior.AttackMight;
         defense = warrior.Armor;
