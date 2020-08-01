@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9e6cc446a09724d89609d78267266a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unit: {fileID: 7643567009469890289, guid: 6c271d9a3a706db4cbd6c8a15a333b60, type: 3}
+  unit: {fileID: 0}
   armyCreator: {fileID: 290596616}
   army: []
 --- !u!114 &290596616
@@ -195,9 +195,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1015364940}
-  - component: {fileID: 1015364939}
   - component: {fileID: 1015364941}
-  - component: {fileID: 1015364942}
+  - component: {fileID: 1015364939}
   m_Layer: 0
   m_Name: BattleManager
   m_TagString: Untagged
@@ -221,7 +220,7 @@ MonoBehaviour:
   - {fileID: 1063056363001751093, guid: a74151256c667bf499356a08d75ee357, type: 3}
   obstacleHexes:
   - {fileID: 4509688672518807905, guid: fcfd8a5a69b410544bedecd97640ac1e, type: 3}
-  - {fileID: 6388103639203635782, guid: f202e790cbe18fc4fba8a41729a3377f, type: 3}
+  - {fileID: 2644491253973259550, guid: f36717bd956a3224599598e592b588db, type: 3}
   maxColumns: 13
   maxRows: 6
   HexParent: {fileID: 1839931075}
@@ -252,19 +251,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unit: {fileID: 7643567009469890289, guid: 6c271d9a3a706db4cbd6c8a15a333b60, type: 3}
---- !u!114 &1015364942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1015364938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad0b4d747346c9441aca881afcc76348, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  battleSceneCreator: {fileID: 1015364939}
 --- !u!1 &1823548214
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cebf4abfae8209742823b93312c6f27f, type: 3}
   m_Name: Cavalryman
   m_EditorClassIdentifier: 
-  amount: 1
   hp: 250
-  isEnemy: 0
   magicResistance: 10
-  turnsAmount: 4
+  turnsAmount: 8
   isAbleToShoot: 0
   attackMight: 100
   armor: 15
   worth: 5
+  amount: 1
   className: Cavalrymen

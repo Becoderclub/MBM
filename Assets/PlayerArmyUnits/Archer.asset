@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7487c661bbc7b54a8c97feec78c9d7d, type: 3}
   m_Name: Archer
   m_EditorClassIdentifier: 
-  amount: 1
   hp: 80
-  isEnemy: 0
   magicResistance: 5
-  turnsAmount: 2
+  turnsAmount: 4
   isAbleToShoot: 1
   attackMight: 60
   armor: 3
   worth: 2
+  amount: 1
   className: Archer

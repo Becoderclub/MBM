@@ -9,15 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 647630455718480489b25c2a540562db, type: 3}
-  m_Name: Giant
+  m_Script: {fileID: 11500000, guid: 66a63d7673c65154c8eaa2f11df26bf0, type: 3}
+  m_Name: Dwarf
   m_EditorClassIdentifier: 
-  hp: 300
-  magicResistance: 5
-  turnsAmount: 2
-  isAbleToShoot: 1
-  attackMight: 50
-  armor: 20
-  worth: 5
+  hp: 100
+  magicResistance: 20
+  turnsAmount: 4
+  isAbleToShoot: 0
+  attackMight: 70
+  armor: 5
+  worth: 3
   amount: 1
-  className: Giant
+  className: Dwarf

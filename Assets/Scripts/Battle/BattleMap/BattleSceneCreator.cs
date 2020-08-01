@@ -55,7 +55,7 @@ public class BattleSceneCreator : MonoBehaviour
     private void GenerateTile(int xIndex, int yIndex, float x, float y)
     {
         GameObject justSpawnedHex;
-        if (x > 3 && x < 10 && Random.Range(1, 9) == 1)
+        if (xIndex > 2 && xIndex < 10 && Random.Range(1, 9) == 1)
         {
             justSpawnedHex = Instantiate(obstacleHexes[Random.Range(0, obstacleHexes.Length)], new Vector3(x, y), Quaternion.identity);
             justSpawnedHex.tag = "NotWalkable";
@@ -107,19 +107,54 @@ public class BattleSceneCreator : MonoBehaviour
 
         bool isOdd = indexX % 2 == 0 ? true : false;
 
-        
+        if(indexY - 1 >= 0)
+        {
+            neighbours.Add(BattleMap[indexX, indexY - 1]);
+        }
+        if(indexY + 1 < maxRows)
+        {
+            neighbours.Add(BattleMap[indexX, indexY + 1]);
+        }
+
+        if (isOdd)
+        {
+            if (indexX - 1 >= 0 && indexY -1 >= 0)
+            {
+                neighbours.Add(BattleMap[indexX - 1, indexY - 1]);
+            }
+            if (indexX - 1 >= 0)
+            {
+                neighbours.Add(BattleMap[indexX - 1, indexY]);
+            }
+            if (indexX + 1 < maxColumns && indexY - 1 >= 0)
+            {
+                neighbours.Add(BattleMap[indexX + 1, indexY - 1]);
+            }
+            if (indexX + 1 < maxColumns)
+            {
+                neighbours.Add(BattleMap[indexX + 1, indexY]);
+            }
+        }
+        else
+        {
+            if (indexX - 1 >= 0)
+            {
+                neighbours.Add(BattleMap[indexX - 1, indexY]);
+            }
+            if (indexX - 1 >= 0 && indexY + 1 < maxRows)
+            {
+                neighbours.Add(BattleMap[indexX - 1, indexY + 1]);
+            }
+            if (indexX + 1 < maxColumns)
+            {
+                neighbours.Add(BattleMap[indexX + 1, indexY]);
+            }
+            if (indexX + 1 < maxColumns && indexY + 1 < maxRows)
+            {
+                neighbours.Add(BattleMap[indexX + 1, indexY + 1]);
+            }
+        }
 
         return neighbours;
-    }
-}
-
-public class Index2D
-{
-    int x;
-    int y;
-    public Index2D(int xIndex, int yIndex)
-    {
-        x = xIndex;
-        y = yIndex;
     }
 }

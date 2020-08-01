@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04bed272a93b3b14eb9903c87957be39, type: 3}
   m_Name: Footman
   m_EditorClassIdentifier: 
-  amount: 1
   hp: 100
-  isEnemy: 0
   magicResistance: 5
-  turnsAmount: 2
+  turnsAmount: 4
   isAbleToShoot: 0
   attackMight: 60
   armor: 5
   worth: 2
+  amount: 1
   className: Footman

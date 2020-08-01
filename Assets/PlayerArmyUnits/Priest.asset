@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a0549ae31c5994697370b5120ce382, type: 3}
   m_Name: Priest
   m_EditorClassIdentifier: 
-  amount: 1
   hp: 70
-  isEnemy: 0
   magicResistance: 10
-  turnsAmount: 2
+  turnsAmount: 4
   isAbleToShoot: 1
   attackMight: 90
   armor: 2
   worth: 3
+  amount: 1
   className: Priest
