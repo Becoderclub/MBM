@@ -14,8 +14,21 @@ public class Unit
     private int totalAttack;
     private bool isEnemy;
 
+    public string UnitName
+    {
+        get => unitName;
+    }
+    public int TotalHealth
+    {
+        get => totalHealth;
+    }
+    public int Amount
+    {
+        get => amount;
+    }
+
     public int healthOfUnit;
-    public Image sprite;
+    public Sprite sprite;
     public GameObject gameObject;
 
     public Unit(Warrior warrior, bool isEnemy) {
@@ -26,7 +39,7 @@ public class Unit
         turns = warrior.TurnsAmount;
         canShoot = warrior.IsAbleToShoot;
         unitName = warrior.ClassName;
-        //this.sprite == warrior.sprite
+        this.sprite = warrior.Sprite;
 
         this.amount = warrior.Amount;
         this.isEnemy = isEnemy;

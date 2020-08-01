@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName ="Warrior", menuName ="Warriors")]
 public class Warrior : ScriptableObject
@@ -16,6 +17,7 @@ public class Warrior : ScriptableObject
     [SerializeField] private int worth;
     [SerializeField] private int amount;
     [SerializeField] private string className;
+    [SerializeField] private Sprite sprite;
     #endregion
 
     #region Properties
@@ -28,5 +30,6 @@ public class Warrior : ScriptableObject
     public int Worth { get { return worth; } set { worth = value; } }
     public int Amount { get { return amount; } set { amount = value; } }
     public string ClassName { get { return className; } set { className = value; } }
+    public Sprite Sprite { get => sprite; set => sprite = value; }
     #endregion
 }

@@ -55,7 +55,7 @@ public class BattleSceneCreator : MonoBehaviour
     private void GenerateTile(int xIndex, int yIndex, float x, float y)
     {
         GameObject justSpawnedHex;
-        if (xIndex > 2 && xIndex < 10 && Random.Range(1, 5) == 1)
+        if (xIndex > 2 && xIndex < 10 && Random.Range(1, 9) == 1)
         {
             justSpawnedHex = Instantiate(obstacleHexes[Random.Range(0, obstacleHexes.Length)], new Vector3(x, y), Quaternion.identity);
             justSpawnedHex.tag = "NotWalkable";
